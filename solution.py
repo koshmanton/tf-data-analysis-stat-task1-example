@@ -8,5 +8,5 @@ def solution(x: np.array) -> float:
     sum = 0
     for i in range(len(x)):
       sum += x[i]
-    sr = sum / len(x)
+    sr = sum / (len(x)*10)
     return 1 / (sr+34)
